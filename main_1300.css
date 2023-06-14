@@ -1,0 +1,759 @@
+#wrap {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* 헤더 */
+header {
+    width: 100%;
+    height: 105px;
+}
+
+header .menu li a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+#header_h {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_h .logo {
+    margin-left: 110px;
+}
+
+#header_h .logo img {
+    align-items: center;
+}
+
+#info>li {
+    margin-top: 5px;
+    padding-left: 32.5px;
+    float: left;
+    width: 90px;
+    height: 17px;
+    border-left: 1px solid #ddd;
+}
+
+#info>li:last-child {
+    margin-right: 60px;
+}
+
+#info li a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+#info_in {
+    margin-right: 10px;
+    float: left;
+    width: 130px;
+    height: 35px;
+}
+
+#info_in>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#info_in ul li {
+    width: 30px;
+    height: 30px;
+}
+
+#mem:hover .menu {
+    opacity: 1;
+}
+
+#mem .menu li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#mem ul li {
+    padding-top: 10px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+}
+
+#mem>ul {
+    width: 140px;
+    position: relative;
+    top: 10px;
+    left: -60px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+    z-index: 9999;
+    opacity: 0;
+}
+
+#mem>ul>li:nth-child(2) {
+    border-bottom: 1px solid #ddd;
+}
+
+#intro>ul {
+    width: 120px;
+    position: relative;
+    top: 10px;
+    left: -30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+    z-index: 9999;
+    opacity: 0;
+}
+
+#intro:hover .menu {
+    opacity: 1;
+}
+
+#intro .menu li {
+    padding-top: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+#intro .menu li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#header_b {
+    float: left;
+    margin-left: 110px;
+    width: 950px;
+}
+
+#header_b nav {
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header_b nav li {
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #222322;
+}
+
+#header_b nav a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #222322;
+}
+
+#header_b nav li:hover {
+    color: #000;
+    border-bottom: 3px solid #000;
+}
+
+#header_b>nav>div {
+    width: 400px;
+    height: 30px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    border-radius: 40px;
+}
+
+#header_b>nav>div>img {
+    height: 20px;
+}
+
+
+
+
+
+/* 메인 이미지 */
+#main_img {
+    width: 100%;
+    position: relative;
+}
+
+#main_img img {
+    width: 100%;
+    height: 640px;
+}
+
+#main_img h1 {
+    line-height: 65px;
+    font-size: 52px;
+    color: #000;
+    letter-spacing: -5px;
+    top: 95px;
+    left: 185px;
+    position: absolute;
+}
+
+#main_img p {
+    font-size: 22px;
+    color: #000;
+    top: 240px;
+    left: 185px;
+    position: absolute;
+}
+
+
+
+
+
+
+/* 렌탈 제품 */
+#prod {
+    width: 100%;
+    height: 580px;
+}
+
+#prod_in {
+    margin: 50px auto;
+    width: 130px;
+    height: 32px;
+}
+
+#prod_in h2 {
+    letter-spacing: -2px;
+    font-size: 30px;
+    color: #000;
+}
+
+#prod ul {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#prod li {
+    margin-right: 5px;
+    float: left;
+    width: 340px;
+    height: 64px;
+    cursor: pointer;
+}
+
+#prod li a {
+    width: 340px;
+    height: 64px;
+}
+
+#prod li img {
+    margin-right: 20px;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+#prod li h3 {
+    padding-top: 17px;
+    letter-spacing: -2px;
+    font-size: 20px;
+    color: #000;
+}
+
+
+
+
+
+/* MD's Pick */
+#pick {
+    width: 100%;
+    height: 690px;
+}
+
+#pick_h {
+    margin: auto;
+    width: 170px;
+    height: 30px;
+}
+
+#pick_h h2 {
+    font-size: 31px;
+    color: #000;
+}
+
+#pick_in ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pick_in ul li {
+    margin-right: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pick_in ul li:active{
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+#pick_in ul li p {
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+
+#pick_img {
+    margin: auto;
+    width: 1280px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pick_img a {
+    margin: 20px 10px;
+    width: 305px;
+    height: 450px;
+    box-shadow: 2px 2px 10px 1px #ddd;
+    border-radius: 5px;
+}
+
+#pick_img img {
+    margin: 40px 50px;
+    width: 200px;
+    height: 200px;
+}
+
+#pick_img .txt1 {
+    margin: 0 0 10px 40px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+#pick_img .txt2 {
+    margin: 0 0 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+#pick_img .txt3 {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+
+
+/* 차원이 다른 렌탈/케어십 제품을 만나보세요 */
+#check {
+    width: 100%;
+    height: 360px;
+}
+
+#check_h h2 {
+    margin: 0 auto;
+    width: 580px;
+    height: 80px;
+}
+
+#check_h h2 {
+    letter-spacing: -1px;
+    font-size: 30px;
+    color: #000;
+}
+
+#check_in {
+    margin: 0 auto;
+    width: 1280px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#check_in a {
+    margin: auto;
+    width: 400px;
+    height: 180px;
+    box-shadow: 2px 2px 10px 1px #ddd;
+    border-radius: 8px;
+}
+
+#check_in a:hover {
+    border: 2px solid red;
+}
+
+#check_in img {
+    margin: 30px 0 0 170px;
+    width: 64px;
+    height: 64px;
+}
+
+#check_in .txt1 {
+    margin: 20px 0 0 120px;
+    letter-spacing: -2px;
+    font-size: 24px;
+    color: #000;
+}
+
+#check_in .txt2 {
+    margin: 20px 0 0 140px;
+    letter-spacing: -2px;
+    font-size: 24px;
+    color: #000;
+}
+
+#check_in .txt3 {
+    margin: 20px 0 0 125px;
+    letter-spacing: -2px;
+    font-size: 24px;
+    color: #000;
+}
+
+
+
+
+
+
+/* 렌탈/케어십 혜택 */
+#benefit {
+    width: 100%;
+    height: 530px;
+}
+
+#benefit_h {
+    margin: 0 auto;
+    width: 230px;
+    height: 30px;
+}
+
+#benefit_h h2 {
+    letter-spacing: -1px;
+    font-size: 30px;
+    color: #000;
+}
+
+#benefit_in {
+    margin: 60px auto;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 30px;
+}
+
+#benefit_in ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#benefit_in li {
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+#benefit_in li:active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+#benefit_b {
+    margin: 0 auto;
+    width: 1280px;
+    height: 300px;
+}
+
+#benefit_b li:first-child {
+    border-bottom: 1px solid #ddd;
+}
+
+#benefit_b li:last-child {
+    margin-top: 20px;
+}
+
+#benefit_b .benefit_l {
+    float: left;
+    width: 630px;
+    height: 270px;
+}
+
+#benefit_b .benefit_l li {
+    margin-right: 20px;
+    float: left;
+    width: 630px;
+    height: 130px;
+}
+
+#benefit_b .benefit_r {
+    float: right;
+    width: 630px;
+    height: 270px;
+}
+
+#benefit_b .benefit_r li {
+    margin-right: 20px;
+    float: left;
+    width: 630px;
+    height: 130px;
+}
+
+#benefit_b .benefit_r img,
+.txt1,
+.txt2:first-child {
+    margin-top: 5px;
+}
+
+#benefit_b img {
+    float: left;
+    margin-right: 30px;
+}
+
+#benefit_b .txt1 {
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+#benefit_b .txt2 {
+    margin-top: 5px;
+    letter-spacing: -1px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #000;
+}
+
+#benefit_b .txt3 {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #000;
+}
+
+
+
+
+
+
+
+/* 이미 렌탈/케어십을 이용하고 계신가요? */
+#rent {
+    width: 100%;
+    height: 415px;
+}
+
+#rent_h {
+    margin: 0 auto;
+    width: 520px;
+    height: 80px;
+}
+
+#rent_h h2 {
+    letter-spacing: -1px;
+    font-size: 30px;
+    color: #000;
+}
+
+#rent_in {
+    margin: 0 auto;
+    width: 1280px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rent_in a {
+    width: 630px;
+    height: 230px;
+    box-shadow: 2px 2px 10px 1px #ddd;
+    border-radius: 8px;
+}
+
+#rent_in img {
+    float: left;
+    margin: 50px 35px 0 50px;
+    width: 64px;
+    height: 64px;
+}
+
+#rent_in .txt1 {
+    margin-top: 45px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000;
+}
+
+#rent_in .txt2 {
+    margin-top: 10px;
+    margin-left: 150px;
+    letter-spacing: -2px;
+    font-size: 19px;
+    color: #000;
+}
+
+
+
+
+
+
+/* 나의 라이프를 바꾸는 LG 가전 케어 서비스 */
+#life {
+    width: 100%;
+    height: 330px;
+}
+
+#life_h {
+    margin: 0 auto;
+    width: 560px;
+    height: 30px;
+}
+
+#life_h h2 {
+    letter-spacing: -1px;
+    font-size: 30px;
+    color: #000;
+}
+
+#life_in {
+    margin: 40px auto;
+    width: 1280px;
+    height: 140px;
+}
+
+#life_in ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#life_in li {
+    width: 420px;
+    height: 140px;
+}
+
+#life_in img {
+    margin-right: 20px;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+#life_in h4 {
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    font-size: 18px;
+    color: #000;
+}
+
+#life_in p {
+    margin-left: 85px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+
+
+
+
+/* 하단 */
+footer {
+    width: 100%;
+    height: 330px;
+    background-color: #f5f5f5;
+}
+
+#footer_h {
+    margin: auto;
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid gray;
+}
+
+#footer_h p {
+    float: left;
+    padding-top: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+#sns {
+    margin: 15px auto;
+    float: right;
+    width: 550px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sns a {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+#footer_b {
+    margin: auto;
+    padding-top: 20px;
+    width: 1280px;
+}
+
+#footer_b>div {
+    margin-bottom: 5px;
+}
+
+#footer_b a {
+    margin-right: 7px;
+    font-size: 11px;
+    color: #000;
+}
+
+#footer_b a:hover {
+    border-bottom: 1px solid #000;
+}
+
+#footer_b .txt {
+    font-weight: bold;
+    color: #000;
+}
+
+#footer_b p {
+    padding-bottom: 10px;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+address {
+    margin-bottom: 10px;
+}
+
+address>span {
+    margin-right: 10px;
+    font-size: 11px;
+    font-style: normal;
+}
+
+address>a {
+    font-style: normal;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+address>a>span {
+    font-weight: bold;
+    color: #fff;
+}
